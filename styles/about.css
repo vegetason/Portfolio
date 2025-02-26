@@ -1,0 +1,14 @@
+#about{
+    display: flex;
+    height: 90vh;
+}
+
+#about>:first-child{
+    display: flex;
+}
+
+/* #about>:first-child div{
+    width: 70px;
+    height: 2px;
+    background-color: white;
+} */

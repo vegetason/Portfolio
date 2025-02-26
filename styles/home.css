@@ -1,3 +1,104 @@
+body{
+    background-color:  RGB(18, 26, 39);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+}
 #home{
     display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: flex-start;
+    padding-left: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+#home>:first-child{
+    display: flex;
+    transform: rotate(270deg);
+    width:auto;
+    align-items: center;
+    height: 10%;
+
+
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#home>:first-child>:first-child{
+    display: flex;
+    align-items: center;
+}
+
+#home>:first-child>:first-child>div{
+    width: 70px;
+    height: 2px;
+    background-color: white;
+}
+
+#home>:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+#home>:nth-child(2)>h3{
+    color: rgb(31, 164, 31);
+}
+
+#home>:nth-child(2) h2{
+    color: rgb(31, 164, 31);
+}
+#home h1{
+    font-size: 50px;
+}
+
+#home button{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(31, 164, 31);
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+#home ul{
+    display: flex;
+    padding-left: 0;
+    gap: 30px;
+}
+
+#home ul>:first-child{
+    list-style-type: none;
+}
+
+#home ul>:first-child~li::marker{
+    color:rgb(31, 164, 31);
+    font-size: 20px;
+}
+
+#home a{
+    display: block;
+}
+
+#home>:nth-child(2)>:nth-child(4){
+    display: flex;
+    gap: 15px;
+}
+
+#home>:nth-child(2)>:nth-child(4)>:last-child button{
+    background-color: RGB(18, 26, 39);
+    border: 3px solid rgb(31, 164, 31);
+
 }
