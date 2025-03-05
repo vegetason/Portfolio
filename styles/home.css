@@ -100,5 +100,5 @@ button:hover{
 #home>:nth-child(2)>:nth-child(4)>:last-child button{
     background-color: RGB(18, 26, 39);
     border: 3px solid rgb(31, 164, 31);
-
+    width: 160px;
 }
