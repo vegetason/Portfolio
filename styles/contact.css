@@ -1,0 +1,28 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact>:first-child{
+    display: flex;
+    align-items: center;
+}
+
+#contact>:first-child>:first-child,#contact>:first-child>:last-child{
+    height: 5px;
+    width: 60px;
+    background-color: white;
+}
+
+#contact>:last-child{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact>:last-child>:first-child{
+    width: 50%;
+}
+#contact> svg{
+   border-radius: 5px;
+}
